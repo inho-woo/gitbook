@@ -416,6 +416,5 @@ ESLint가 코드 퀄리티를 일관적으로 유지\
 > [https://velopert.com/3236](https://velopert.com/3236)\
 > [https://yeoulcoding.me/147](https://yeoulcoding.me/147)\
 > [https://velog.io/@velopert/react-hooks](https://velog.io/@velopert/react-hooks)\
-> [https://hsp0418.tistory.com/171](https://hsp0418.tistory.com/171)
-
-[![profile](https://velog.velcdn.com/images/leemember/profile/c8ee5d39-820e-4fab-909d-4cd8d695609f/social.jpeg)](https://velog.io/@leemember)\
+> [https://hsp0418.tistory.com/17](https://hsp0418.tistory.com/171)\
+>
