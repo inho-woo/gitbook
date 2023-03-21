@@ -10,9 +10,10 @@
 
 
 
-`const [Count, setCount] = React.useState(0);`&#x20;
-
-`<button onClick={() => setCount(count + 1)}>`
+```tsx
+const [Count, setCount] = React.useState(0); 
+<button onClick={() => setCount(count + 1)}>
+```
 
 ``
 

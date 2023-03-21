@@ -11,25 +11,18 @@
 
 
 
-`ex > useEffect( function, deps )`
-
-`useEffect(() => {`
-
-&#x20;`console.log("이 문법은 마운트 될때만 실행된다.")`&#x20;
-
-`},[]);`
-
-`useEffect(()=>{`&#x20;
-
-&#x20;`console.log("이 문법은 렌더링 될떄마다 실행된다.")`&#x20;
-
-`});`
-
-`useEffect(()-=>{`
-
-&#x20;`console.log(aaa); console.log("이 문법은 aaa가 업데이트 될때마다 실행된다.");`&#x20;
-
-`},[aaa]);`
+```tsx
+ex > useEffect( function, deps )
+useEffect(() => {
+ console.log("이 문법은 마운트 될때만 실행된다.") 
+},[]);
+useEffect(()=>{ 
+ console.log("이 문법은 렌더링 될떄마다 실행된다.") 
+});
+useEffect(()-=>{
+ console.log(aaa); console.log("이 문법은 aaa가 업데이트 될때마다 실행된다."); 
+},[aaa]);
+```
 
 이런식으로 useEffect() 도 상황에따라 사용할 수 있다.\
 현재는 **마운트, 업데이트** 방법만 사용하여 React 기반 프로젝트를 수행했지만, 추후 고도화 작업애 있어선 효율성을 생각하여 코드 작성을 해야겠다.

@@ -7,11 +7,15 @@
 
 
 
-`const value = useMemo(() => {`&#x20;
+```tsx
+const value = useMemo(() => {
 
-&#x20; `return test();`&#x20;
+return test();
 
-`},[item])`
+},[item])
+```
+
+``
 
 **useMemo()** 는 **useEffect()** 와 같이 첫번째 인자로 콜백 함수, 두번째 인자로 의존성 배열을 받는다.&#x20;
 

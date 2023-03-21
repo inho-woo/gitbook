@@ -10,33 +10,27 @@
 
 
 
-`createContext({`&#x20;
-
-`loading : () => {}`
-
-`useMemo(() => loading,[loading]);`
+```tsx
+createContext({
+loading : () => {}
+useMemo(() => loading,[loading]);
+```
 
 다음과 같이 **객체** 를 보낼때는 **useMemo()** Hook 을 이용해 리렌더링을 방지해줘야 한다. **useMemo()** 에 관한 내용은 다음글에 정리하도록 하겠다. **createContext()** 를 선언해주고 사용할 컴포넌트에 사용하면 된다.
 
 
 
-`const contextTest() => {`&#x20;
-
-&#x20;  `const [loading] = useContext(loading);`&#x20;
-
-&#x20;  `return(`&#x20;
-
-&#x20;     `<>`&#x20;
-
-&#x20;     `<button onClick{() => loading((prev) => !prev)}> contextButton Test </button>`
-
-&#x20;    `</>`&#x20;
-
-&#x20;   `);`&#x20;
-
-&#x20;`};`
-
-`export default contextTest;`
+```tsx
+const contextTest() => { 
+   const [loading] = useContext(loading); 
+   return( 
+      <> 
+      <button onClick{() => loading((prev) => !prev)}> contextButton Test </button>
+     </> 
+    ); 
+ };
+export default contextTest;
+```
 
 
 
